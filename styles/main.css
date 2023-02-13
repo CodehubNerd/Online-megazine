@@ -1,0 +1,132 @@
+html{
+    font-size:100%; 
+    box-sizing:border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body{
+   margin: 0; 
+   padding: 0;
+   line-height: 1.3; 
+   font-size:0.9375rem;
+ 
+   /*colors*/
+  /*#14CFB9*/
+ 
+
+}
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: black;
+}
+.main-container{
+    padding-left:45px;  
+    padding-right:45px; 
+
+}
+@media only screen and (min-width: 1200px) {
+    .main-container{
+        padding-left:45px;  
+        padding-right:45px; 
+    
+       
+    }
+   
+  }
+.navigation{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    box-shadow: 0px 4px 10px #ccc;
+    
+}
+.logo{
+   width: 140px; 
+}
+.nav-links{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+}
+a{
+    margin-right:20px;
+    font-size: 14px;
+}
+a:hover{
+   color: aquamarine;
+}
+.main-btn{
+border: 0px;
+padding: 7px 30px;
+border-radius: 5px;
+background:#3734A9;
+font-family: 'Commissioner', sans-serif;
+cursor: pointer;
+color: #fffefe;
+}
+
+section.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.hero-text h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+.hero-text p{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    margin-top: -10px;
+    font-size: 16px;
+
+}
+span{
+    color: #00E1F0;
+}
+.btns-container{
+    display: flex;
+    flex-direction: row;
+  
+}
+.btn1 button{
+border: none;
+padding:10px 30px;
+border-radius: 50px;
+background:#3734A9;
+color: aliceblue;
+font-family: 'Commissioner', sans-serif;
+font-weight: 400;
+margin-top: 10px;
+cursor: pointer;
+font-size: 14px;
+}
+.btn1 button:hover{
+    border: 1px solid #3734A9;
+    background:#3834a900;
+    color: rgb(2, 127, 237);
+}
+.btn2{
+display: flex;
+
+}
+.btn2-txt{
+margin-left: -50px;
+font-family: 'Commissioner', sans-serif;
+font-weight: 400;
+cursor: pointer;
+font-size: 14px;
+}
+.btn2-txt:hover{
+    text-decoration: underline;
+}
