@@ -82,6 +82,27 @@ section.hero{
     min-height: 17.5rem;
     
 }
+@media only screen and (max-width: 600px) {
+    section.hero{
+        display: flex;
+        flex-direction: column;
+   
+        align-items: center;
+      
+    
+        
+    }
+  }
+@media only screen and (max-width: 600px) {
+    section.hero-image{
+        display: flex;
+      
+      width: 300px;   
+    }
+    .hero-image img{
+      width: 100%;   
+    }
+  }
 
 .hero-text h2{
     font-family: 'Inter', sans-serif;
@@ -141,12 +162,14 @@ font-size: 14px;
 }
 .cacth-up h2{
     font-family: 'Inter', sans-serif;
+    text-align: center;
     font-weight: 700;
     font-size: 30px;
 
 }
 .cacth-up p{
     font-family: 'Commissioner', sans-serif;
+    text-align: center;
     color: #060055;
     font-weight: 400;
     cursor: pointer;
@@ -167,7 +190,7 @@ border-radius: 6px;
 
 border: 1px solid rgba(128, 128, 128, 0.693);
 flex-direction: column;
-width: 350px;
+width: 280px;
 }
 .cathup-image{
 width: 100%;
@@ -183,10 +206,205 @@ cursor: pointer;
 justify-content: space-between;
 }
 #icon-size{
-width: 30px;
+width: 24px;
 
 }
 .descr-p{
     padding-left: 10px;
     padding-right:  10px;
 }
+
+.catagory-and-trending{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.trending{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.trending h2{
+    font-family: 'inter', sans-serif;
+
+    color: rgb(31, 31, 34);
+    font-size: 20px;
+    font-weight: 700;
+}
+.trends{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  
+    
+}
+.trends h2{
+margin-left: 8px;
+font-family: 'Commissioner', sans-serif;
+
+color: #060055;
+font-size: 15px;
+font-weight: 700;
+}
+.trend-img{
+width: 140px;
+height: 80px;
+
+}
+.trend-img img{
+width: 100%;
+height: 100%;
+border-radius: 6px;
+}
+.small-stories{
+
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.small-stories p{
+
+    flex-direction: row;
+    font-family: 'Commissioner', sans-serif;
+    color: #060055;
+    font-size: 15px;
+}
+.categories h2{
+
+    flex-direction: row;
+    font-family: 'inter', sans-serif;
+    color: #060055;
+    font-size: 15px;
+}
+
+
+.cat-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+
+}
+.catagory{
+    display: flex;
+    flex-direction: row;
+    background: #ccc;
+    margin-bottom: 8px;
+    
+    padding: 5px 12px;
+    border-radius:6px;
+    align-items: center;
+}
+.catagory h2{
+    font-family: 'inter', sans-serif;
+    color: #060055;
+    font-size: 15px;
+}
+.catagory:hover{
+  
+    background: #D8F8FB;
+    cursor: pointer;
+}
+.catagory h2{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Commissioner', sans-serif;
+    color: #060055;
+    font-size: 15px;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background: #020114;
+    margin-top: 60px;
+}
+footer p{
+    font-family: 'Commissioner', sans-serif;
+    color: #234380;
+ 
+    font-size: 15px;
+}
+.footer-container{
+    margin-top: 60px;
+    background: #020114;
+    display: flex;
+    justify-content: space-between;
+}
+.f-logo-descr{
+   padding-top: 35px; 
+}
+.f-logo-descr h2{
+    font-family: 'inter', sans-serif;
+    color: #909094;
+    font-size: 15px;
+}
+.f-logo-descr p{
+    font-family: 'Commissioner', sans-serif;
+    color: #909094;
+    font-size: 15px;
+}
+.f-catgories h2{
+    font-family: 'inter', sans-serif;
+    color: #909094;
+    font-size: 15px;
+}
+.f-catgories p{
+    font-family: 'inter', sans-serif;
+    color: #909094;
+    font-size: 15px;
+}
+
+
+.f-links h2{
+    font-family: 'inter', sans-serif;
+    color: #909094;
+    font-size: 15px;
+}
+.f-links p{
+    font-family: 'inter', sans-serif;
+    color: #909094;
+    font-size: 15px;
+}
+
+
+
+@media only screen and (min-width: 700px) {
+    .menu{
+       display: none;
+       }
+  }
+@media only screen and (max-width: 600px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav.main-container{
+     padding: 6px;
+    }
+    nav.logo{
+     width: 60px;
+    }
+    nav .nav-links{
+    display: none;
+    }
+    nav .nav-btn{
+    display: none;
+    }
+
+
+.hero{
+display: flex;
+flex-direction: column;
+}
+
+  }
+
+
+
